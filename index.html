@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Invite for {{name}}</title>
+<link rel="stylesheet" href="../../style.css"></head>
+<body data-kind="{{kind}}" data-slug="{{slug}}" data-name="{{name}}" data-url="{{scriptUrl}}"
+      data-yes="Nice! See you there 🎉" data-no="Aw, maybe next time.">
+<div class="card">
+  <img class="photo" src="../images/traxer.webp" alt="">
+  <div class="meta"><span>Address:</span><b>{{livePlace}}</b><span>Purpose:</span><b>{{purpose}}</b></div>
+  <div class="head"><h1>MEGA PARTY INVITE!!!</h1><div class="badge">ONLY LIMITED TIME ONLY!</div></div>
+  <div id="form">
+    <div class="main">
+      <div class="row"><span>For <b>{{name}}</b></span><span>Date <b>{{liveDate}}</b></span></div>
+      <div class="center">Cool Text<br><b>{{text}}</b></div>
+      <div class="center">You in it?</div>
+      <textarea id="comment" placeholder="Describe your emotions here..."></textarea>
+      <p id="err" hidden>Couldn't send. Please try again.</p>
+    </div>
+    <div class="btns"><button id="yes">Yes, I got u</button><button id="no">No</button></div>
+  </div>
+  <div id="done" hidden><h2 id="doneText"></h2><button id="change">Change answer</button></div>
+</div>
+<script src="../../app.js"></script></body></html>
