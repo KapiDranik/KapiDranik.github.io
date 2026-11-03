@@ -1,0 +1,33 @@
+h3{
+    color: #000;
+    font-size: 32px;
+}
+
+html{
+    background-color: #3273EB;
+}
+
+img{
+    max-width: 500px;
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+div{
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+    padding: 50px;
+}
+p{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.65;
+}
+h1{
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+}

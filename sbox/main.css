@@ -1,0 +1,71 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 32 * 10);
+    margin: 10px;
+    background-color: orange;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+.photo:hover{
+    transform: rotate(2deg) scale(1.5);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+}
+.photo1{
+    background-image: url(images/img1.png);
+}
+.photo2{
+    background-image: url(images/img2.png);
+}
+.photo3{
+    background-image: url(images/img3.png);
+}
+.photo4{
+    background-image: url(images/img4.png);
+}
+.photo5{
+    background-image: url(images/img5.png);
+}
+.photo6{
+    background-image: url(images/img6.png);
+}
+.photo7{
+    background-image: url(images/img7.png);
+}
+.photo8{
+    background-image: url(images/img8.png);
+}
+.photo9{
+    background-image: url(images/img9.png);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+body{
+background-color: #3273EB;
+font-family: Roboto;
+}
