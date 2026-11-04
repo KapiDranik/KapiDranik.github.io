@@ -17,17 +17,13 @@ body {
 
 .container {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height: 100vh;
-  text-align: center;
+  display: inline-block;
+  line-height: 0;
 }
 
 .container img {
   display: block;
-  max-width: 100%;
+  width: 68vmin;
   height: auto;
   opacity: 0.5;
   filter: blur(2px);
@@ -37,10 +33,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 90%; 
+  text-align: center;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 4.8vmin;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
